@@ -1,0 +1,25 @@
+name: receive_sharing_intent_web
+description: "A receive_sharing_intent implementation on web platform"
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+  receive_sharing_intent: ^1.6.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  plugin:
+    platforms:
+      web:
+        pluginClass: ReceiveSharingIntentWeb
+        fileName: receive_sharing_intent_web.dart
