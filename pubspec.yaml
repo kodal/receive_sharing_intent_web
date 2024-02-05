@@ -1,7 +1,7 @@
 name: receive_sharing_intent_web
 description: "A receive_sharing_intent implementation on web platform"
 version: 0.0.1
-homepage:
+homepage: https://github.com/kodal/receive_sharing_intent_web
 
 environment:
   sdk: '>=3.2.6 <4.0.0'
